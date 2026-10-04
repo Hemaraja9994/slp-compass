@@ -8,7 +8,7 @@ like the divisions of an organisation and a human expert stays in charge.
 
 > Educational and research use only. Not a medical device. Not a substitute for clinical judgment.
 
-**Live app:** https://slp-compass.vercel.app
+**Live app:** https://slpcompass.vercel.app
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Hemaraja9994/slp-compass)
 
