@@ -88,7 +88,7 @@ export default function OutcomesClient() {
       value: e.value,
       notes: e.notes,
     }));
-    downloadText(`virtual-slp-lab_outcomes_${all ? "all" : `${vc}_${vm}`}_${today()}.csv`.replace(/[^\w.-]+/g, "_"), toCsv(rows));
+    downloadText(`slp-compass_outcomes_${all ? "all" : `${vc}_${vm}`}_${today()}.csv`.replace(/[^\w.-]+/g, "_"), toCsv(rows));
   }
 
   function importJson(file: File) {
@@ -178,7 +178,7 @@ export default function OutcomesClient() {
           <div className="flex flex-wrap gap-2">
             <button className="btn-outline" disabled={!series.length} onClick={() => exportCsv(false)}>Export this series (CSV)</button>
             <button className="btn-outline" disabled={!entries.length} onClick={() => exportCsv(true)}>Export all (CSV)</button>
-            <button className="btn-outline" disabled={!entries.length} onClick={() => downloadText(`virtual-slp-lab_outcomes_backup_${today()}.json`, JSON.stringify(entries, null, 1), "application/json")}>
+            <button className="btn-outline" disabled={!entries.length} onClick={() => downloadText(`slp-compass_outcomes_backup_${today()}.json`, JSON.stringify(entries, null, 1), "application/json")}>
               Backup (JSON)
             </button>
             <label className="btn-outline cursor-pointer">

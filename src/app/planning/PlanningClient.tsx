@@ -251,7 +251,7 @@ export default function PlanningClient() {
           <p><b>Personal factors:</b> {personal || "not recorded"}</p>
         </div>
         <p className="mt-3 text-xs text-slate-500">
-          Generated with Virtual SLP Lab (educational and research use). Goals are drafted from clinician inputs and
+          Generated with SLP Compass (educational and research use). Goals are drafted from clinician inputs and
           must be reviewed by the treating clinician with the client and family.
         </p>
       </section>

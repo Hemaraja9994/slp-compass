@@ -96,7 +96,7 @@ export default function AnnotationPanel({ selected }: { selected: TrialRecord[] 
       clinician_verified: a.verified,
       clinician_note: a.clinicianNote,
     }));
-    downloadText(`virtual-slp-lab_ai_annotations_${new Date().toISOString().slice(0, 10)}.csv`, toCsv(rows));
+    downloadText(`slp-compass_ai_annotations_${new Date().toISOString().slice(0, 10)}.csv`, toCsv(rows));
   }
 
   return (

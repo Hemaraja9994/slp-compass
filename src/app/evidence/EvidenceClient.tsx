@@ -239,7 +239,7 @@ export default function EvidenceClient() {
       rule_dose_evidence_text: r.doseEvidence,
     }));
     const stamp = new Date().toISOString().slice(0, 10);
-    downloadText(`virtual-slp-lab_trials_${stamp}.csv`, toCsv(rows));
+    downloadText(`slp-compass_trials_${stamp}.csv`, toCsv(rows));
   }
 
   function toggle<T>(arr: T[], v: T): T[] {

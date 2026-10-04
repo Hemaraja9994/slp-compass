@@ -23,7 +23,7 @@ export default function Nav() {
           <span className="inline-flex h-8 w-8 items-center justify-center rounded bg-navy text-sm font-bold text-white">
             SLP
           </span>
-          <span className="text-lg font-bold text-navy">Virtual SLP Lab</span>
+          <span className="text-lg font-bold text-navy">SLP Compass</span>
         </Link>
         <button
           className="rounded border border-slate-300 px-2 py-1 text-sm text-navy md:hidden"

@@ -32,7 +32,8 @@ export default function Home() {
   return (
     <div className="space-y-8">
       <section className="rounded-lg bg-navy px-6 py-8 text-white">
-        <h1 className="text-2xl font-bold sm:text-3xl">Virtual SLP Lab</h1>
+        <h1 className="text-2xl font-bold sm:text-3xl">SLP Compass</h1>
+        <p className="mt-1 text-lg font-semibold text-slate-100">An open web platform for evidence-guided speech-language pathology practice</p>
         <p className="mt-2 max-w-3xl text-base text-slate-100">
           A human-guided, multi-division workspace for speech-language pathologists. Inspired by the Virtual Biotech
           framework (Zhang et al., Science, 2026), where AI agents are organised like divisions of an organisation and

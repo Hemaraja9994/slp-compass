@@ -5,12 +5,12 @@ export const metadata: Metadata = { title: "About" };
 export default function AboutPage() {
   return (
     <div className="max-w-3xl space-y-6">
-      <h1 className="h1">About Virtual SLP Lab</h1>
+      <h1 className="h1">About SLP Compass</h1>
 
       <section className="space-y-2">
         <h2 className="h2">Purpose</h2>
         <p className="text-sm text-slate-800">
-          Virtual SLP Lab is a free, open tool that helps speech-language pathologists (SLPs) and researchers explore
+          SLP Compass is an open web platform for evidence-guided speech-language pathology practice. It is a free, open tool that helps speech-language pathologists (SLPs) and researchers explore
           the registered intervention evidence in their field and support everyday clinical reasoning. It is organised
           as divisions: Evidence, Assessment, Planning, Safety and Outcomes. Each division does one job, and the
           clinician coordinates them.
@@ -19,6 +19,7 @@ export default function AboutPage() {
 
       <section className="space-y-2">
         <h2 className="h2">Inspiration</h2>
+        <p className="text-xs text-slate-500">SLP Compass was first released under the working name Virtual SLP Lab.</p>
         <p className="text-sm text-slate-800">
           The design is inspired by the Virtual Biotech, a multi-agent AI framework in which AI agents are organised
           like a drug company, with divisions for target discovery, safety, modality and clinical development, working
@@ -33,7 +34,7 @@ export default function AboutPage() {
           </a>
         </blockquote>
         <p className="text-xs text-slate-500">
-          Virtual SLP Lab is an independent project. It is not affiliated with or endorsed by the authors of that
+          SLP Compass is an independent project. It is not affiliated with or endorsed by the authors of that
           paper or by the journal.
         </p>
       </section>
@@ -82,7 +83,7 @@ export default function AboutPage() {
       <section className="space-y-2">
         <h2 className="h2">Disclaimer</h2>
         <p className="text-sm text-slate-800">
-          Virtual SLP Lab is for educational and research use only. It is not a medical device, does not provide a
+          SLP Compass is for educational and research use only. It is not a medical device, does not provide a
           diagnosis or treatment recommendation, and is not a substitute for clinical judgment, local protocols or
           medical advice. The authors accept no liability for decisions made using this tool.
         </p>

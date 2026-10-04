@@ -43,7 +43,7 @@ function buildParams(domain: DomainId, types: string[]): URLSearchParams {
 
 async function getJson(url: string): Promise<Record<string, unknown>> {
   const res = await fetch(url, {
-    headers: { Accept: "application/json", "User-Agent": "VirtualSLPLab/1.0 (educational research tool)" },
+    headers: { Accept: "application/json", "User-Agent": "SLPCompass/1.0 (educational research tool)" },
     cache: "no-store",
   });
   if (!res.ok) {

@@ -1,4 +1,6 @@
-# Virtual SLP Lab
+# SLP Compass
+
+**An open web platform for evidence-guided speech-language pathology practice.**
 
 A human-guided, multi-division web tool for speech-language pathologists (SLPs) and researchers.
 Inspired by the Virtual Biotech framework (Zhang et al., *Science*, 2026), in which AI agents are organised
@@ -6,14 +8,18 @@ like the divisions of an organisation and a human expert stays in charge.
 
 > Educational and research use only. Not a medical device. Not a substitute for clinical judgment.
 
-**Live app:** https://virtual-slp-lab.vercel.app
+**Live app:** https://slp-compass.vercel.app
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Hemaraja9994/slp-compass)
+
+*Formerly "Virtual SLP Lab". Old links (https://virtual-slp-lab.vercel.app and github.com/Hemaraja9994/virtual-slp-lab) continue to work.*
 
 ![Evidence dashboard](screenshots/01-evidence-dashboard.png)
 
 ## Purpose
 
 SLP intervention research is spread across many registries and reports, and dose, intensity and delivery
-details are rarely summarised. Virtual SLP Lab gives clinicians and students a single, free place to:
+details are rarely summarised. SLP Compass gives clinicians and students a single, free place to:
 
 - explore registered behavioural and device trials in SLP domains, live from ClinicalTrials.gov;
 - compute common descriptive speech and language metrics without sending data anywhere;
@@ -54,8 +60,8 @@ details are rarely summarised. Virtual SLP Lab gives clinicians and students a s
 Requirements: Node.js 20.9 or later.
 
 ```bash
-git clone https://github.com/Hemaraja9994/virtual-slp-lab.git
-cd virtual-slp-lab
+git clone https://github.com/Hemaraja9994/slp-compass.git
+cd slp-compass
 npm install
 npm run dev        # http://localhost:3000
 npm run lint
@@ -83,12 +89,10 @@ No environment variables are required.
 Zero configuration: Vercel detects Next.js automatically.
 
 1. Push this repo to GitHub.
-2. In Vercel, choose **Add New... > Project**, import `Hemaraja9994/virtual-slp-lab`, keep the defaults, and deploy.
-3. Or, once the repository is public, use a deploy button:
+2. In Vercel, choose **Add New... > Project**, import `Hemaraja9994/slp-compass`, keep the defaults, and deploy.
+3. Or use the one-click deploy button:
 
-```markdown
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Hemaraja9994/virtual-slp-lab)
-```
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Hemaraja9994/slp-compass)
 
 The `/api/trials` and `/api/annotate` routes set `maxDuration = 60` seconds, within the Hobby plan limits.
 
@@ -114,7 +118,7 @@ The Evidence and annotation features need server routes, so a pure static export
 
 ## Disclaimer
 
-Virtual SLP Lab is for educational and research use only. It is not a medical device, does not diagnose or
+SLP Compass is for educational and research use only. It is not a medical device, does not diagnose or
 recommend treatment, and does not replace clinical judgment, local protocols or medical advice. Registry data can
 be incomplete or outdated, and rule-based or AI extraction can be wrong: always check the source record.
 
