@@ -6,6 +6,8 @@ like the divisions of an organisation and a human expert stays in charge.
 
 > Educational and research use only. Not a medical device. Not a substitute for clinical judgment.
 
+**Live app:** https://virtual-slp-lab.vercel.app
+
 ![Evidence dashboard](screenshots/01-evidence-dashboard.png)
 
 ## Purpose

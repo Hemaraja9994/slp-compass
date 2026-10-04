@@ -227,13 +227,14 @@ export function categoriseWhyStopped(why: string): string {
   if (!why) return "";
   const w = why.toLowerCase();
   if (/covid|pandemic|sars-cov|coronavirus/.test(w)) return "COVID-19";
-  if (/recruit|enrol|enroll|accrual|participants|subjects|patients? (were|was)? ?(not|un)|low (number|interest)|eligible/.test(w)) return "Recruitment / enrolment";
-  if (/fund|budget|financ|grant|money|resources/.test(w)) return "Funding";
+  if (/recruit|enrol|enroll|accrual|inclusion rate|participation|participants|subjects|patients? (were|was)? ?(not|un)|low (number|interest)|eligible/.test(w)) return "Recruitment / enrolment";
+  if (/fund|budget|financ|grant|money|cost|resources/.test(w)) return "Funding";
   if (/safety|adverse|harm|risk/.test(w)) return "Safety";
-  if (/futil|efficacy|ineffect|interim analysis|no benefit|lack of effect/.test(w)) return "Efficacy / futility";
-  if (/sponsor|business|strategic|company|commercial|portfolio/.test(w)) return "Sponsor / business decision";
-  if (/\bpi\b|investigator|principal|staff|personnel|left the|relocat|retire|leave/.test(w)) return "Investigator / staffing";
+  if (/futil|efficacy|ineffect|interim analysis|no benefit|lack of effect|no effect|no reliable|stopping rule|proof of principle|significant difference|saturation|not worth|research question|novelty|similar study/.test(w)) return "Efficacy, futility or scientific";
+  if (/sponsor|business|strategic|company|commercial|portfolio|recall|manufacturer|patent/.test(w)) return "Sponsor / business decision";
+  if (/\bpi\b|investigator|principal|staff|personnel|student|researcher|collaborator|left the|relocat|retire|leave|time off|another institution/.test(w)) return "Investigator / staffing";
   if (/irb|ethic|regulator|approval|fda/.test(w)) return "Regulatory / ethics";
+  if (/corrupt|unreliable|data quality|data loss/.test(w)) return "Data quality";
   if (/device|equipment|technical|software|supply|logistic|site|feasib/.test(w)) return "Logistics / feasibility";
   return "Other / unspecified";
 }
