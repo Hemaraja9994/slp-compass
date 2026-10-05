@@ -37,7 +37,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </p>
             <p className="mt-1">
               Built by Hemaraja Nayaka S, Department of Audiology and Speech-Language Pathology, Yenepoya Medical
-              College, Yenepoya (Deemed to be University), Mangaluru, India.
+              College, Yenepoya (Deemed to be University), Mangaluru, India. Sister tool:{" "}
+              <a className="text-navy underline" href="https://audiologycompass.vercel.app" target="_blank" rel="noreferrer">
+                Audiology Compass
+              </a>
+              .
             </p>
           </div>
         </footer>

@@ -81,6 +81,19 @@ export default function AboutPage() {
       </section>
 
       <section className="space-y-2">
+        <h2 className="h2">Sister tool: Audiology Compass</h2>
+        <p className="text-sm text-slate-800">
+          Audiology Compass is the audiology counterpart of SLP Compass, with the same privacy model: live
+          ClinicalTrials.gov evidence for hearing, tinnitus and vestibular care, audiogram and assessment calculators,
+          ICF aural and vestibular rehabilitation goals, red flags and outcome tracking. Visit{" "}
+          <a className="text-navy underline" href="https://audiologycompass.vercel.app" target="_blank" rel="noreferrer">
+            audiologycompass.vercel.app
+          </a>
+          .
+        </p>
+      </section>
+
+      <section className="space-y-2">
         <h2 className="h2">Disclaimer</h2>
         <p className="text-sm text-slate-800">
           SLP Compass is for educational and research use only. It is not a medical device, does not provide a

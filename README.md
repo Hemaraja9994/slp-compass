@@ -139,6 +139,10 @@ be incomplete or outdated, and rule-based or AI extraction can be wrong: always 
 - Kannada language support for the interface and language-sample tools.
 - Shared, de-identified evidence annotations for the SLP community.
 
+## Related tools
+
+- **Audiology Compass**, the sister tool for audiology practice: https://audiologycompass.vercel.app (code: https://github.com/Hemaraja9994/audiology-compass)
+
 ## Citation and credit
 
 Inspiration: Zhang HG, Eckmann P, Miao J, Mahon AB, Zou J. The Virtual Biotech: A multi-agent AI framework for
